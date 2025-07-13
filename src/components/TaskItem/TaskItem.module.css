@@ -1,0 +1,65 @@
+.form__body {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form__check input {
+    width: 2em;
+    height: 2em;
+}
+
+.card__studies {
+    background-color: #874C62;
+}
+
+.card__job {
+    background-color: #C98474;
+}
+
+.card__house {
+    background-color: #FFF1C1;
+}
+
+.card__family {
+    background-color: #F2D388;
+}
+
+.card__health {
+    background-color: #A7D2CB;
+}
+
+.card__meetings {
+    background-color: #D2A0A4;
+}
+
+.card__other {
+    background-color: #d8d8d8;
+}
+
+.card__true {
+    position: relative;
+    padding-left: 20px;
+}
+
+.card__true::before {
+    content: '';
+    position: absolute;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" fill="%23000" viewBox="0 0 32 32"><path d="M3.488 13.184l6.272 6.112-1.472 8.608 7.712-4.064 7.712 4.064-1.472-8.608 6.272-6.112-8.64-1.248-3.872-7.808-3.872 7.808z"/></svg>');
+    background-repeat: no-repeat;
+    background-size: contain;
+    left: 0;
+    transform: translateY(10%);
+}
+
+.doneCard {
+    background-color: #fff;
+}
+
+.doneText {
+    text-decoration: line-through;
+}

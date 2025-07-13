@@ -1,0 +1,11 @@
+.row {
+    flex-direction: column;
+    gap: 20px;
+}
+
+.button__primary {
+    position: fixed;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+}

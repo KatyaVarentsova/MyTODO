@@ -1,0 +1,18 @@
+.group__buttons {
+    position: fixed;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.button__primary {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.auxiliary__buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+
+}
